@@ -5,3 +5,4 @@ workers_dev = false
 routes = [
   { pattern = "business-oportunity-57.businessopportunity.pt", custom_domain = true }
 ]
+# trigger build
