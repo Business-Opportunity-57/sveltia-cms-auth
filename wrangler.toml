@@ -2,7 +2,6 @@ name = "sveltia-cms-auth"
 main = "src/index.js"
 compatibility_date = "2023-03-24"
 workers_dev = false
-
-[[routes]]
-pattern = "business-oportunity-57.businessopportunity.pt"
-custom_domain = true
+routes = [
+  { pattern = "business-oportunity-57.businessopportunity.pt", custom_domain = true }
+]
